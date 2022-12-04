@@ -12,8 +12,4 @@
     <None Remove="Borrame\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\Entities\" />
-  </ItemGroup>
-
 </Project>
