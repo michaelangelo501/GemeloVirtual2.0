@@ -5,4 +5,9 @@
     <RootNamespace>GemeloVirtual2._0Web</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Borrame\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
