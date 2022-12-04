@@ -6,8 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Borrame\" />
-    <Folder Include="Data\" />
+    <Compile Remove="Borrame\**" />
+    <Content Remove="Borrame\**" />
+    <EmbeddedResource Remove="Borrame\**" />
+    <None Remove="Borrame\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Entities\" />
   </ItemGroup>
 
 </Project>
